@@ -14,7 +14,7 @@ class Gafanhoto extends Pessoa{
 
 //metodo 
     public function assistirMaisUm(){
-        
+        $this->totAssistido ++;
     }
 //métodos especiais
     public function getLogin(){
